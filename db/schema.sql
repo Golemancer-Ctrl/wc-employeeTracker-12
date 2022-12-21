@@ -19,3 +19,14 @@ CREATE TABLE roles (
     ON DELETE SET NULL
 );
 
+CREATE TABLE employees (
+    id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    employee_id INT,
+    first_name VARCHAR(30),
+    last_name VARCHAR(30),
+    manager VARCHAR(100),
+    review TEXT NOT NULL,
+    FOREIGN KEY (role_id)
+    REFERENCES roles(id)
+    ON DELETE SET NULL
+);
