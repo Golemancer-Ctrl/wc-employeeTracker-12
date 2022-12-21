@@ -21,3 +21,4 @@ const db = mysql.createConnection(
     // logs connection to confirm connectivity 
     console.log(`Connected to employees_db`)
 );
+
