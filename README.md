@@ -26,3 +26,7 @@ WHEN I choose to update an employee role
 THEN I am prompted to select an employee to update and their new role and this information is updated in the database
 
 ## Description
+A basic foray into the use of SQL in practical application.
+
+## Installation
+Download the repository and run 'npm i' to initialize and 'npm start' to start the server at localhost 9001.  Replace the blank SQL password with your own and run the application.
