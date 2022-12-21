@@ -15,7 +15,7 @@ const db = mysql.createConnection(
     {
         host: 'localhost',
         user: 'root',
-        password: 'P1g$oUnDSQL!',
+        password: '',
         database: 'employees_db'
     },
     // logs connection to confirm connectivity 
